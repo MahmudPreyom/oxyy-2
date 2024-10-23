@@ -7,6 +7,7 @@ import {
 import './index.css'
 import Signin from './components/Signin';
 import Register from './components/Register';
+import OtpPage from './components/OtpPage';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register/>
+  },
+  {
+    path: "/otpPage",
+    element: <OtpPage/>
   }
 ]);
 
