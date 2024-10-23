@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const OtpPage = () => {
     return (
         <div className='login-page p-3 py-32'>
-            <div className="max-w-7xl mx-auto mt-[66px] mb-[64px]">
+            <div className="max-w-7xl mx-auto mt-[66px] mb-[66px]">
                 <div className='grid md:grid-cols-2 grid-cols-1'>
                     <div className='flex items-center justify-center flex-col p-7'>
                         <h2 className='text-5xl font-bold mb-[27px] text-white'>Oxyy</h2>
